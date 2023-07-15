@@ -25,6 +25,8 @@ public class Main {
         System.out.println("Long " + idLong);
         System.out.println("Float " + salario);
         System.out.println("Double " + indiceDeAtualizacao);
+        System.out.println("Aumento de salário " + salario * indiceDeAtualizacao / 100);
+        System.out.println("Salário atualizado " + (salario + salario * indiceDeAtualizacao / 100));
         System.out.println("Boolean " + ativo);
         System.out.println("Character " + genero);
     }
