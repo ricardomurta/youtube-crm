@@ -6,22 +6,5 @@ public class Order {
     float unitValue; // 754 floating point | 32-bit
     double totalValue; // 754 floating point | 64-bit
     boolean active; // true and false | 1-bit
-    CategoryEnum category; // Unicode's character | 16-bit
-    String productName;
-
-    void transformProductNameToUppercase() {
-        System.out.println(productName.toUpperCase());
-    }
-
-    void transformProductNameToLowercase() {
-        System.out.println(productName.toLowerCase());
-    }
-
-    void isProductNameBlank() {
-        System.out.println(productName.isBlank());
-    }
-
-    void isProductNameEmpty() {
-        System.out.println(productName.isEmpty());
-    }
+    char category; // Unicode's character | 16-bit
 }
