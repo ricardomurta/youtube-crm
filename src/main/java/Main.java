@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
 
         Order o = new Order();
-        o.day = 31;
-        o.month = 12;
-        o.year = 2024;
+        o.date[0] = 31;
+        o.date[1] = 12;
+        o.date[2] = 2024;
         o.category = 'P';
         o.productCode = 1234567890;
         o.active = true;
@@ -13,7 +13,7 @@ public class Main {
         o.totalValue = o.unitValue * o.quantity;
 
         System.out.println("----------------------");
-        System.out.println("Order date: " + o.day + "/" + o.month + "/" + o.year);
+        System.out.println("Order date: " + o.date[2] + "/" + o.date[1] + "/" + o.date[0]);
         System.out.println("Order category: " + o.category);
         System.out.println("Product code: " + o.productCode);
         System.out.println("Product status:" + o.active);
