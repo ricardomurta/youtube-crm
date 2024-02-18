@@ -6,7 +6,7 @@ public class Main {
         o.date[0] = 31;
         o.date[1] = 12;
         o.date[2] = 2024;
-        o.category = 'P';
+        o.category = Category.PRODUCT;
         o.productCode = 1234567890;
         o.active = true;
         o.unitValue = 199.99f;

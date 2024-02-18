@@ -5,6 +5,6 @@ public class Order {
     float unitValue; // 754 floating point | 32-bit
     double totalValue; // 754 floating point | 64-bit
     boolean active; // true and false | 1-bit
-    char category; // Unicode's character | 16-bit
+    Category category; // Unicode's character | 16-bit
     String productName;
 }
