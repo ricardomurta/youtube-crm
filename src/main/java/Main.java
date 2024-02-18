@@ -25,5 +25,12 @@ public class Main {
         System.out.println("Quantity: " + o.quantity);
         System.out.println("Total: " + o.totalValue);
         System.out.println("----------------------");
+        System.out.println("Array position 0: " + o.productName[0]);
+        System.out.println("Array position 1: " + o.productName[1]);
+        System.out.println("Array position 2: " + o.productName[2]);
+        System.out.println("Array position 3: " + o.productName[3]);
+        System.out.println("Array length: " + o.productName.length);
+        System.out.println("----------------------");
+
     }
 }
