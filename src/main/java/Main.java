@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         Order o = new Order();
         o.day = 31;
         o.month = 12;
