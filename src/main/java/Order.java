@@ -6,5 +6,5 @@ public class Order {
     double totalValue; // 754 floating point | 64-bit
     boolean active; // true and false | 1-bit
     char category; // Unicode's character | 16-bit
-    char[] productName;
+    String productName;
 }
